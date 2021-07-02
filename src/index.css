@@ -1,0 +1,21 @@
+.svg-icon {
+    width: 1.8em;
+    height: 1.8em;
+  }
+
+  @media (min-width: 640px) { 
+    .svg-icon {
+      width: 1.2em;
+      height: 1.2em;
+    }
+   }
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #fff;
+  }
+  
+  .svg-icon circle {
+    stroke: #fff;
+    stroke-width: 1;
+  }
