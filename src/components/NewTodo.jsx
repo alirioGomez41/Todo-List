@@ -23,6 +23,7 @@ const NewTodo = ({guardarTraerDatos}) => {
 
              return;
          }
+         guardarError(false);
          todotask.id = shortid.generate();
      
          guardarTraerDatos(todotask); 
